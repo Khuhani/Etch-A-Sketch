@@ -16,6 +16,11 @@ body{
     flex-direction: column;
 }
 
+h1{
+    text-align: center;
+    color: #fff;
+}
+
 .navbar, .container{
     background-color: rgb(28,28,29);
     width: 800px;
@@ -35,11 +40,29 @@ body{
     padding: 0 1em;
 }
 
+.btn:hover{
+    border:.5px solid crimson;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color:antiquewhite;
+}
+
 .color{
     padding: 0 .25em;
     width: 100px;
     margin: 0 1em;
 }
+
+/*.erase{
+    margin: 0 1em;
+}
+
+.erase:hover{
+    border:.5px solid crimson;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color:antiquewhite;  
+}*/
 
 .container{
     --size: 4;
@@ -52,6 +75,6 @@ body{
 }
 
 .pixel{
-    background-color: white;
+    background-color: #fff;
     border-radius: 2px;
 }
